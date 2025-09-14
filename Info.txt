@@ -1,0 +1,122 @@
+Got it ✅ Thanks for clarifying. I’ll remove the filter page and only include the actual pages you have:
+
+Create Folder Page
+
+Check Files Page (with its 3 options)
+
+Translate Page (with Translate + Validate)
+
+Consolidated Page
+
+Open Working File Page
+
+Info Page
+
+
+Here’s the updated Info Page text:
+
+
+---
+
+Info Page
+
+General Instructions
+
+This application is designed to manage folders, check files, perform translations, and consolidate reports.
+Recommended flow of usage:
+
+1. Start by creating a folder in the Create Folder Page.
+
+
+2. Verify that required files exist in the Check Files Page.
+
+
+3. Perform translations and validations in the Translate Page.
+
+
+4. Use the Consolidated Page to merge reports or logs into one file.
+
+
+5. Use the Open Working File Page to open and review your generated files.
+
+
+6. Refer back to the Info Page for guidance at any time.
+
+
+
+
+---
+
+Home Page
+
+The Home Page is the entry point of the application. It provides navigation to all major modules, including folder creation, file checking, translation, consolidation, and file opening.
+
+
+---
+
+Create Folder Page
+
+This page allows you to create a new folder at a specified location.
+
+The current working path is displayed as read-only for reference.
+
+A Browse Folder option allows you to choose a different location.
+
+Clicking the Create Folder button generates a new folder in the chosen directory.
+
+
+The folder created here acts as the workspace for all other operations.
+
+
+---
+
+Check Files Page
+
+This page verifies the existence of required files in the working folder. It contains three main buttons at the top:
+
+Check Files → Validates whether the three required files are present.
+
+Generate Log → Creates a detailed record of the file status (available or missing).
+
+Convert to Excel → Converts the log file into an Excel report for easy tracking.
+
+
+
+---
+
+Translate Page
+
+The Translate Page handles multilingual operations and consists of two sub-options:
+
+Translate → Converts text or file content from one language to another, saving the output in the working folder.
+
+Validate → Ensures that translations meet correctness and format requirements before they are finalized.
+
+
+
+---
+
+Consolidated Page
+
+The Consolidated Page is used to merge multiple outputs such as logs, Excel reports, or translated files into a single file.
+This feature provides a unified view of all results, making analysis and reporting easier.
+
+
+---
+
+Open Working File Page
+
+This page provides quick access to open and review files that were created or processed within the application. It ensures that users can easily check the final outputs without leaving the program.
+
+
+---
+
+Info Page
+
+The Info Page explains the purpose of each module in the application. It acts as a reference guide, ensuring users understand the workflow and available features.
+
+
+---
+
+Do you want me to format this directly as Tkinter labels in a scrollable text widget, so you can just drop it into your app, or should I keep it as plain text for now?
+
